@@ -3,10 +3,15 @@ import 'package:e_commerce_app/screens/home.dart';
 import 'package:e_commerce_app/screens/product_listing.dart';
 import 'package:e_commerce_app/screens/shopping_cart.dart';
 import 'package:flutter/material.dart';
-
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'widgets/cart_button.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
