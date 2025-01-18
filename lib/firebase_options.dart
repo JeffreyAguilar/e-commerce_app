@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDQl4pH3TGShuHnese7b6SSVuINs8hx6no',
+    apiKey: 'INSERT API KEY',
     appId: '1:123184086020:web:7990b45d71634977c18951',
     messagingSenderId: '123184086020',
     projectId: 'e-commerce-4ebf1',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD3iSUec2AP-NcIaHnHZNyfW9PZMoS5CeA',
+    apiKey: 'INSERT API KEY',
     appId: '1:123184086020:android:8c88c5bbd9e1f453c18951',
     messagingSenderId: '123184086020',
     projectId: 'e-commerce-4ebf1',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCB9GQ4ISCXnHwZGTGjJdLHKFXnIKR87NU',
+    apiKey: 'INSERT API KEY',
     appId: '1:123184086020:ios:88e9005f4a93bc9dc18951',
     messagingSenderId: '123184086020',
     projectId: 'e-commerce-4ebf1',
@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCB9GQ4ISCXnHwZGTGjJdLHKFXnIKR87NU',
+    apiKey: 'INSERT API KEY',
     appId: '1:123184086020:ios:88e9005f4a93bc9dc18951',
     messagingSenderId: '123184086020',
     projectId: 'e-commerce-4ebf1',
@@ -77,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDQl4pH3TGShuHnese7b6SSVuINs8hx6no',
+    apiKey: 'INSERT API KEY',
     appId: '1:123184086020:web:da69c0c61695871cc18951',
     messagingSenderId: '123184086020',
     projectId: 'e-commerce-4ebf1',
